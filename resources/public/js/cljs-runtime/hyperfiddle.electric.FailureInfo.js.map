@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"hyperfiddle.electric.FailureInfo.js",
+"lineCount":8,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,kCAAb,CAAA;AAKAC,WAAYC,CAAAA,QAASC,CAAAA,WAArB,GAAmCC,QAAQ,CAACC,OAAD,EAAUC,IAAV,EAAgBC,EAAhB,EAAoBC,KAApB,CAA2B;AACpE,MAAKH,CAAAA,OAAL,GAAeA,OAAf;AACA,MAAKC,CAAAA,IAAL,GAAYA,IAAZ;AACA,MAAKC,CAAAA,EAAL,GAAUA,EAAV;AACA,MAAKC,CAAAA,KAAL,GAAaA,KAAb;AAJoE,CAAtE;;",
+"sources":["hyperfiddle/electric/FailureInfo.js"],
+"sourcesContent":["goog.provide('hyperfiddle.electric.FailureInfo');\n\n/**\n * @constructor\n */\nhyperfiddle.electric.FailureInfo = function(message, data, id, cause) {\n  this.message = message;\n  this.data = data;\n  this.id = id;\n  this.cause = cause;\n};\n"],
+"names":["goog","provide","hyperfiddle","electric","FailureInfo","hyperfiddle.electric.FailureInfo","message","data","id","cause"]
+}
